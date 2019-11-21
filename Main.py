@@ -368,7 +368,7 @@ if n == 1:
     print("Start Story 1")
     print("Enter 1")
     n = int(input("Enter a number 1:"))
-    error1()
+
     if n == 1:
         print("Red path")
         n = int(input("Enter number 1:"))
@@ -402,6 +402,7 @@ if n == 1:
                                 print("You gain 5")
                                 print("You are at 13")
                                 n = int(input("Enter a number 1-2:"))
+                                get_two()
                                 if n == 1:
                                     print("Your car breaks down")
                                     print("Lose 2")
