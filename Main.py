@@ -1,39 +1,35 @@
-def error1():
-    wronginput = true
-    while wronginput:
+def get_one():
+    n = 0
+    while n != 1:
         try:
             n = int(input("Enter number 1: "))
-            wronginput = false
         except ValueError:
             print("Enter a whole numeric number: ")
 
 
-def error2():
-    wronginput = true
-    while wronginput:
+def get_two():
+    n = 0
+    while n != (1,2):
         try:
-            n = int(input("Enter a number 1-2: "))
-            wronginput = false
+            n = int(input("Enter number 1: "))
         except ValueError:
             print("Enter a whole numeric number: ")
 
 
-def error3():
-    wronginput = true
-    while wronginput:
+def get_three():
+    n = 0
+    while n != (1,2,3):
         try:
-            n = int(input("Enter a number 1-3: "))
-            wronginput = false
+            n = int(input("Enter number 1: "))
         except ValueError:
             print("Enter a whole numeric number: ")
 
 
-def error4():
-    wronginput = true
-    while wronginput:
+def get_four():
+    n = 0
+    while n != (1,2,3,4):
         try:
-            n = int(input("Enter a number 1-4: "))
-            wronginput = false
+            n = int(input("Enter number 1: "))
         except ValueError:
             print("Enter a whole numeric number: ")
 
@@ -367,6 +363,7 @@ def winnersGame():
 
 print("Hello World")
 n = int(input("Enter number 1:"))
+get_one()
 if n == 1:
     print("Start Story 1")
     print("Enter 1")
@@ -6670,4 +6667,3 @@ if n == 1:
                                                     print("You gain 6")
                                                     print("!!!YOU WIN!!!")
                                                     winnersGame()
-
