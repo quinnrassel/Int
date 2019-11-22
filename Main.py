@@ -5648,7 +5648,8 @@ if n == 1:
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
+                                                        print("!!!YOU "
+                                                              "WIN!!!")
                                                         winnersGame()
                                                 elif n == 3:
                                                     print("You gain 6")
