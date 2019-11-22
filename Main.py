@@ -1,3 +1,7 @@
+# __author__ Quinn RASSEL
+# this is a text based game with the goal of getting enough numbers to hit 20
+
+
 def get_one():
     """ a way to check for a initial error or value error
 
@@ -52,7 +56,7 @@ def get_four():
 
 def winnersGame():
     """
-
+This is the game played after the player has won, it shows the winnings
     """
     print("WINNERS GAME")
     total = 0
@@ -422,8 +426,8 @@ if n == 1:
                         if n == 1:
                             print("You gain 2")
                             print("You are at 8")
-                            n = int(input("Enter a number 1-3:"))
-                            get_three()
+                            n = int(input("Enter a number 1-2:"))
+                            get_two()
                             if n == 1:
                                 print("You gain 5")
                                 print("You are at 13")
@@ -506,7 +510,6 @@ if n == 1:
                                                         get_four()
                                                         if n == 1:
                                                             print("You lose 1")
-                                                            # noinspection SpellCheckingInspection
                                                             print(
                                                                 "Your final nu"
                                                                 "mber is 13")
@@ -2254,7 +2257,8 @@ if n == 1:
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 2:
                                                         print("You gain 1")
@@ -2303,7 +2307,7 @@ if n == 1:
                                                                 "umber is 17")
                                                             print(
                                                                 "Almost but "
-                                                            "YOU LOST")
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
@@ -3416,30 +3420,37 @@ if n == 1:
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final nu"
+                                                                "mber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 3:
                                                     print("You gain 6")
                                                     print("You are at 15")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -3448,29 +3459,37 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("!!!YOU WIN!!!")
@@ -3489,229 +3508,289 @@ if n == 1:
                                                 print("You are at 7")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 9")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but Y"
+                                                                "OU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 10")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 9")
+                                                                "Your final n"
+                                                                "umber is 9")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 7")
+                                                                "Your final n"
+                                                                "umber is 7")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 15")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 2:
                                                     print("You gain 1")
                                                     print("You are at 8")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 13")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 9")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 8")
+                                                                "Your final n"
+                                                                "umber is 8")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 6")
+                                                                "Your final n"
+                                                                "umber is 6")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 3:
                                                     print("You gain 6")
                                                     print("You are at 13")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("!!!YOU WIN!!!")
@@ -3731,36 +3810,44 @@ if n == 1:
                                                 print("You are at -4")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You lose 15")
                                                     print("You are at -19")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at -14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is -15")
+                                                                "Your final n"
+                                                                "umber is -15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is -13")
+                                                                "Your final n"
+                                                                "umber is -13")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is -17")
+                                                                "Your final n"
+                                                                "umber is -17")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print(
                                                                 "You gain 10")
                                                             print(
-                                                                "Your final number is -4")
+                                                                "Your final n"
+                                                                "umber is -4")
                                                             print("YOU LOST")
                                                     elif n == 2:
                                                         print("You lose 1")
@@ -3769,47 +3856,58 @@ if n == 1:
                                                         print("You gain 6")
                                                         print("You are at -13")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is -14")
+                                                                "Your final n"
+                                                                "umber is -14")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print(
                                                                 "You gain 50")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is -16")
+                                                                "Your final n"
+                                                                "umber is -16")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print(
                                                                 "You gain 70")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                 elif n == 2:
                                                     print("You gain 12")
                                                     print("You are at 8")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 13")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print(
@@ -3819,65 +3917,79 @@ if n == 1:
                                                             print(
                                                                 "You gain 18")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 9")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 8")
+                                                                "Your final "
+                                                                "number is 8")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final "
+                                                                "number is 10")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 6")
+                                                                "Your final n"
+                                                                "umber is 6")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print(
                                                                 "You gain 18")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final nu"
+                                                                "mber is 12")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print(
                                                                 "You gain 30")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                 elif n == 3:
                                                     print("You gain 8")
                                                     print("You are at 4")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 18")
                                                         print("!!!YOU WIN!!!")
@@ -3902,229 +4014,289 @@ if n == 1:
                                                 print("You are at 7")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 9")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final nu"
+                                                                "mber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 10")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 9")
+                                                                "Your final n"
+                                                                "umber is 9")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 7")
+                                                                "Your final n"
+                                                                "umber is 7")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 15")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 2:
                                                     print("You gain 1")
                                                     print("You are at 8")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 13")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 9")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 8")
+                                                                "Your final n"
+                                                                "umber is 8")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 6")
+                                                                "Your final n"
+                                                                "umber is 6")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 3:
                                                     print("You gain 6")
                                                     print("You are at 13")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("!!!YOU WIN!!!")
@@ -4134,6 +4306,7 @@ if n == 1:
                                         print("You gain 4")
                                         print("You are at 13")
                                         n = int(input("Enter a number 1-3:"))
+                                        get_three()
                                         if n == 1:
                                             print("You gain 3")
                                             print("You are at 16")
@@ -4148,11 +4321,13 @@ if n == 1:
                                                 print("You are at 17")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 19")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4170,6 +4345,7 @@ if n == 1:
                                                     print("You are at 18")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4178,28 +4354,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 19")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but"
+                                                                " YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -4224,11 +4408,13 @@ if n == 1:
                                                 print("You are at 15")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 17")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4237,28 +4423,37 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                ""
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -4269,6 +4464,7 @@ if n == 1:
                                                     print("You are at 16")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4277,28 +4473,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 17")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -4322,11 +4526,13 @@ if n == 1:
                                                 print("You are at 15")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 17")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4334,28 +4540,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -4366,6 +4580,7 @@ if n == 1:
                                                     print("You are at 16")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4374,28 +4589,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 17")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -4409,10 +4632,12 @@ if n == 1:
                                     print("Your car doesn't breaks down")
                                     print("You are at 11")
                                     n = int(input("Enter a number 1-2:"))
+                                    get_two()
                                     if n == 1:
                                         print("You lose 4")
                                         print("You are at 7")
                                         n = int(input("Enter a number 1-4:"))
+                                        get_four()
                                         if n == 1:
                                             print("You gain 3")
                                             print("You are at 10")
@@ -4427,175 +4652,224 @@ if n == 1:
                                                 print("You are at 11")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 13")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU"
+                                                                " WIN!!!")
                                                             winnersGame()
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 14")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 19")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                 elif n == 2:
                                                     print("You gain 1")
                                                     print("You are at 12")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 17")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but Y"
+                                                                "OU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final "
+                                                                "number is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 13")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final "
+                                                                "number is 12")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                 elif n == 3:
                                                     print("You gain 6")
@@ -4609,28 +4883,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 18")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -4649,178 +4931,226 @@ if n == 1:
                                                 print("You are at 9")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 11")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final "
+                                                                "number is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final "
+                                                                "number is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final "
+                                                                "number is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 12")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final "
+                                                                "number is 11")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 9")
+                                                                "Your final n"
+                                                                "umber is 9")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 17")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                 elif n == 2:
                                                     print("You gain 1")
                                                     print("You are at 10")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 15")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 11")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 8")
+                                                                "Your final n"
+                                                                "umber is 8")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 3:
                                                     print("You gain 6")
                                                     print("You are at 15")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -4829,29 +5159,37 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("!!!YOU WIN!!!")
@@ -4874,178 +5212,226 @@ if n == 1:
                                                 print("You are at 9")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 11")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 12")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 11")
+                                                                "Your final n"
+                                                                "umber is 11")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 9")
+                                                                "Your final n"
+                                                                "umber is 9")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 17")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                 elif n == 2:
                                                     print("You gain 1")
                                                     print("You are at 10")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("You are at 15")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 2:
                                                         print("You gain 1")
                                                         print("You are at 11")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 10")
+                                                                "Your final n"
+                                                                "umber is 10")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 12")
+                                                                "Your final n"
+                                                                "umber is 12")
                                                             print("YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 8")
+                                                                "Your final n"
+                                                                "umber is 8")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 14")
+                                                                "Your final n"
+                                                                "umber is 14")
                                                             print("YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                 elif n == 3:
                                                     print("You gain 6")
                                                     print("You are at 15")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -5054,29 +5440,37 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 16")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 15")
+                                                                "Your final n"
+                                                                "umber is 15")
                                                             print("YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "Your final number is 17")
+                                                                "Your final n"
+                                                                "umber is 17")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 13")
+                                                                "Your final n"
+                                                                "umber is 13")
                                                             print("YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "Your final number is 19")
+                                                                "Your final n"
+                                                                "umber is 19")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                     elif n == 3:
                                                         print("You gain 6")
                                                         print("!!!YOU WIN!!!")
@@ -5086,6 +5480,7 @@ if n == 1:
                                         print("You gain 4")
                                         print("You are at 15")
                                         n = int(input("Enter a number 1-3:"))
+                                        get_three()
                                         if n == 2:
                                             print("You gain 7")
                                             print("!!!YOU WIN!!!")
@@ -5102,11 +5497,13 @@ if n == 1:
                                                 print("You are at 17")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 19")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -5124,6 +5521,7 @@ if n == 1:
                                                     print("You are at 18")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -5132,28 +5530,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 19")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
@@ -5163,8 +5569,6 @@ if n == 1:
                                                     print("You gain 6")
                                                     print("!!!YOU WIN!!!")
                                                     winnersGame()
-
-
                                         elif n == 3:
                                             print("You gain 1")
                                             print("You are at 16")
@@ -5178,11 +5582,13 @@ if n == 1:
                                                 print("You are at 17")
                                                 n = int(input(
                                                     "Enter a number 1-4:"))
+                                                get_four()
                                                 if n == 1:
                                                     print("You gain 2")
                                                     print("You are at 19")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -5200,6 +5606,7 @@ if n == 1:
                                                     print("You are at 18")
                                                     n = int(input(
                                                         "Enter a number 1-3:"))
+                                                    get_three()
                                                     if n == 1:
                                                         print("You gain 5")
                                                         print("!!!YOU WIN!!!")
@@ -5208,2029 +5615,36 @@ if n == 1:
                                                         print("You gain 1")
                                                         print("You are at 19")
                                                         n = int(input(
-                                                            "Enter a number 1-4:"))
+                                                            "Enter a number "
+                                                            "1-4:"))
+                                                        get_four()
                                                         if n == 1:
                                                             print("You lose 1")
                                                             print(
-                                                                "Your final number is 18")
+                                                                "Your final n"
+                                                                "umber is 18")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 2:
                                                             print("You gain 1")
                                                             print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                         elif n == 3:
                                                             print("You lose 3")
                                                             print(
-                                                                "Your final number is 16")
+                                                                "Your final n"
+                                                                "umber is 16")
                                                             print(
-                                                                "Almost but YOU LOST")
+                                                                "Almost but "
+                                                                "YOU LOST")
                                                         elif n == 4:
                                                             print("You gain 3")
                                                             print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("!!!YOU WIN!!!")
-                                                    winnersGame()
-                            elif n == 3:
-                                print("You gain 5")
-                                print("You are at 13")
-                                n = int(input("Enter a number 1-2:"))
-                                if n == 1:
-                                    print("Your car breaks down")
-                                    print("Lose 2")
-                                    print("You are at 11")
-                                    n = int(input("Enter a number 1-2:"))
-                                    if n == 1:
-                                        print("You lose 4")
-                                        print("You are at 7")
-                                        n = int(input("Enter a number 1-4:"))
-                                        if n == 1:
-                                            print("You gain 3")
-                                            print("You are at 10")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 11")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 13")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 19")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 12")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 17")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 13")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("You are at 15")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                        elif n == 2:
-                                            print("You gain 1")
-                                            print("You are at 6")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 7")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 9")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 10")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 9")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 7")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 15")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 8")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 13")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 9")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 8")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 6")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("You are at 13")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-
-                                        elif n == 3:
-                                            print("You lose 10")
-                                            print("You are at -5")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at -4")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You lose 15")
-                                                    print("You are at -19")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at -14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is -15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is -13")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is -17")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "You gain 10")
-                                                            print(
-                                                                "Your final number is -4")
-                                                            print("YOU LOST")
-                                                    elif n == 2:
-                                                        print("You lose 1")
-                                                        print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at -13")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is -14")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print(
-                                                                "You gain 50")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is -16")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "You gain 70")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 12")
-                                                    print("You are at 8")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 13")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print(
-                                                                "You lose 40")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "You gain 18")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 9")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 8")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 6")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "You gain 18")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "You gain 30")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 8")
-                                                    print("You are at 4")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 18")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You lose 22")
-                                                        print("YOU LOSE")
-                                                    elif n == 3:
-                                                        print("You lose 23")
-                                                        print("YOU LOSE")
-                                        elif n == 4:
-                                            print("You gain 1")
-                                            print("You are at 6")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 7")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 9")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 10")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 9")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 7")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 15")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 8")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 13")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 9")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 8")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 6")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("You are at 13")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-
-                                    elif n == 2:
-                                        print("You gain 4")
-                                        print("You are at 13")
-                                        n = int(input("Enter a number 1-3:"))
-                                        if n == 1:
-                                            print("You gain 3")
-                                            print("You are at 16")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 17")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 19")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 18")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 19")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("!!!YOU WIN!!!")
-                                                    winnersGame()
-                                        elif n == 2:
-                                            print("You gain 1")
-                                            print("You are at 14")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                                winnersGame()
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 15")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 17")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 16")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 17")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("!!!YOU WIN!!!")
-                                                    winnersGame()
-                                        elif n == 3:
-                                            print("You gain 1")
-                                            print("You are at 14")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 15")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 17")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 16")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 17")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("!!!YOU WIN!!!")
-                                                    winnersGame()
-                                elif n == 2:
-                                    print("Your car doesn't breaks down")
-                                    print("You are at 11")
-                                    n = int(input("Enter a number 1-2:"))
-                                    if n == 1:
-                                        print("You lose 4")
-                                        print("You are at 7")
-                                        n = int(input("Enter a number 1-4:"))
-                                        if n == 1:
-                                            print("You gain 3")
-                                            print("You are at 10")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 11")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 13")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 14")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 19")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 12")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 17")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 13")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("You are at 17")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 18")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                        elif n == 2:
-                                            print("You gain 1")
-                                            print("You are at 8")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 9")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 11")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 12")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 9")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 17")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 10")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 15")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 11")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 8")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("You are at 15")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-
-                                        elif n == 3:
-                                            print("You lose 30")
-                                            print("YOU LOSE")
-                                        elif n == 4:
-                                            print("You gain 1")
-                                            print("You are at 8")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                                winnersGame()
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 9")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 11")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 12")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 11")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 9")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 17")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 10")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("You are at 15")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 11")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 10")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 12")
-                                                            print("YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 8")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 14")
-                                                            print("YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("You are at 15")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 16")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 15")
-                                                            print("YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "Your final number is 17")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 13")
-                                                            print("YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "Your final number is 19")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-
-                                    elif n == 2:
-                                        print("You gain 4")
-                                        print("You are at 15")
-                                        n = int(input("Enter a number 1-3:"))
-                                        if n == 2:
-                                            print("You gain 7")
-                                            print("!!!YOU WIN!!!")
-                                        elif n == 1:
-                                            print("You gain 1")
-                                            print("You are at 16")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 17")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 19")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 18")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 19")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 3:
-                                                    print("You gain 6")
-                                                    print("!!!YOU WIN!!!")
-                                                    winnersGame()
-
-
-                                        elif n == 3:
-                                            print("You gain 1")
-                                            print("You are at 16")
-                                            n = int(input("Enter a number:"))
-                                            if n == 777:
-                                                print("!!!YOU WIN!!!")
-                                            elif n == 23:
-                                                print("!!!YOU LOSE!!!")
-                                            else:
-                                                print("You gain 1")
-                                                print("You are at 17")
-                                                n = int(input(
-                                                    "Enter a number 1-4:"))
-                                                if n == 1:
-                                                    print("You gain 2")
-                                                    print("You are at 19")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 3:
-                                                        print("You gain 6")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                elif n == 2:
-                                                    print("You gain 1")
-                                                    print("You are at 18")
-                                                    n = int(input(
-                                                        "Enter a number 1-3:"))
-                                                    if n == 1:
-                                                        print("You gain 5")
-                                                        print("!!!YOU WIN!!!")
-                                                        winnersGame()
-                                                    elif n == 2:
-                                                        print("You gain 1")
-                                                        print("You are at 19")
-                                                        n = int(input(
-                                                            "Enter a number 1-4:"))
-                                                        if n == 1:
-                                                            print("You lose 1")
-                                                            print(
-                                                                "Your final number is 18")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 2:
-                                                            print("You gain 1")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
-                                                            winnersGame()
-                                                        elif n == 3:
-                                                            print("You lose 3")
-                                                            print(
-                                                                "Your final number is 16")
-                                                            print(
-                                                                "Almost but YOU LOST")
-                                                        elif n == 4:
-                                                            print("You gain 3")
-                                                            print(
-                                                                "!!!YOU WIN!!!")
+                                                                "!!!YOU "
+                                                                "WIN!!!")
                                                             winnersGame()
                                                     elif n == 3:
                                                         print("You gain 6")
